@@ -1,0 +1,4 @@
+node_modules/
+pocketdesk/data/
+pocketdesk/logs/
+.claude/settings.local.json

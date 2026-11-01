@@ -1,0 +1,38 @@
+{
+  "host": "127.0.0.1",
+  "port": 8765,
+  "roots": [
+    {
+      "name": "Projects",
+      "path": "C:\\Users\\banka\\Projects"
+    }
+  ],
+  "allDrives": true,
+  "deny": [
+    "*.pem",
+    "*.key",
+    "*.pfx",
+    "*.p12",
+    "id_rsa*",
+    "id_ed25519*",
+    ".git-credentials",
+    ".credentials.json"
+  ],
+  "hideInListing": [
+    "node_modules",
+    ".git",
+    ".next",
+    "dist",
+    "__pycache__",
+    ".venv",
+    "venv",
+    ".turbo",
+    ".cache"
+  ],
+  "maxTextBytes": 2097152,
+  "maxUploadBytes": 104857600,
+  "maxLiveSessions": 3,
+  "idleSessionMinutes": 20,
+  "allowPowerActions": true,
+  "allowedTailscaleUsers": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "pocketdesk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private laptop-to-phone hub: run Claude Code on your own account and reach your project files from your own devices only.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.3.319",
+    "web-push": "^4.0.0"
+  }
+}
